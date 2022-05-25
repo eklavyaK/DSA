@@ -1,0 +1,20 @@
+----->
+the shift operation produces a int integer like for ex: 1<<n. To get a long long value we must do 1LL<<n
+
+----->
+if x a number then there are builtin functions which can be used for different purposes:
+
+__builtin_clz(x): the number of zeros at the beginning of the bit representation
+__builtin_ctz(x): the number of zeros at the end of the bit representation
+__builtin_popcount(x): the number of ones in the bit representation            //popcount() is most important function
+__builtin_parity(x): the parity (even or odd) of the number of ones in the
+bit representation
+
+Note: these functions are for int. So the binary representation of the number will be of 32 bits. To get these values for long long
+value, we just add suffix 'll' to each function:
+
+__builtin_clzll(x): the number of zeros at the beginning of the bit representation
+__builtin_ctzll(x): the number of zeros at the end of the bit representation
+__builtin_popcountll(x): the number of ones in the bit representation
+__builtin_parityll(x): the parity (even or odd) of the number of ones in the
+bit representation
