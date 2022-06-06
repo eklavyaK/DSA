@@ -1,1 +1,14 @@
-->
+->A weighted graph is a graph whose edges has been assigned some weights
+
+->Neighbour of a vertex or node is the node which is directly connected to it with an edge
+
+->Degree of a node is the number of neighbours.
+
+->A graph is complete if every node has n-1 degree
+
+->In a directed graph, the indegree of a node is the number of edges that end at
+the node, and the outdegree of a node is the number of edges that start at the node.
+
+->A graph is bipartite if it is possible to color its nodes using two colors in such a
+way that no adjacent nodes have the same color. It turns out that a graph is bipartite
+exactly when it does not have a cycle with an odd number of edges.
