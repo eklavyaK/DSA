@@ -12,3 +12,10 @@ the node, and the outdegree of a node is the number of edges that start at the n
 ->A graph is bipartite if it is possible to color its nodes using two colors in such a
 way that no adjacent nodes have the same color. It turns out that a graph is bipartite
 exactly when it does not have a cycle with an odd number of edges.
+
+->An important class of graphs are directed acyclic graphs, also called DAGs. Such
+graphs do not contain cycles, and many problems are easier to solve if wemay assume
+that this is the case. In particular, we can always construct a topological sort for the
+graph and then apply dynamic programming.
+
+->Successor Graphs: Directed graph where outdegree of each node is 1, also called functional graphs
