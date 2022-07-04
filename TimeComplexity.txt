@@ -1,3 +1,14 @@
 the time complexity of the sort function in c++ is O(nlogn)
 
 the increasing order of the time complexity: O(1), O(logn), O(root(n)), O(n), O(n^2), O(a^n), O(n!), O(n^n)
+
+Asymptotic analysis of a code is the time complexity analysis
+
+What is O(g(n)) of a function f(n)?
+    Here g(n) is such that f(n)<=cg(n) where c is chosen such that for all the n>=N where N is a number cg(n) is always greater than f(n)
+
+What is big_omega(g(n)) of a function f(n)?
+    Here g(n) is such that cf(n)>=g(n) where c is chosen such that for all the n>=N where N is a number cf(n) is always greater than g(n)
+
+What is big_theta(g(n)) of a function f(n)?
+    Here g(n) is such that c1g(n)>=f(n)>=c2g(n) where c1 and c2 are chosen such for all the n>=N the conditions always holds
