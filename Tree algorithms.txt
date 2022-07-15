@@ -1,0 +1,46 @@
+What is binary Search tree(BST)?
+
+    Binary search tree is formed such that value of root is greater than every node in left subtree and less than every node in right subtree.
+    Same followed by each subtree.
+
+What is inorder transversal of a binary tree?
+    In case of inorder transversal, first left is processed and then root is processed and then right subtree is processed. In case of BST it 
+    prints the nodes in increasing order.
+
+    algorithm:
+
+    void dfs(node* root){
+        if(root==NULL)return;
+        dfs(root->left);
+        print(root);
+        dfs(root->right);
+    }
+
+
+what is preorder transversal of a binary tree?
+    In case of preorder transversal, first root is processed then left subtree is processed and then right subtree is processed. Just like
+    depth first search algorithm.
+
+    algorithm:
+    
+    void dfs(node* root){
+        if(root==NULL)return;
+        print(root);
+        dfs(root->left);
+        dfs(root->right);
+    }
+
+what is postorder transversal of a binary tree?
+    In case of postorder transversal, first left subtree is processed and then right subtree is processed and then finally root is processed.
+
+    algorithm:
+
+    void dfs(node* root){
+        if(root==NULL)return;
+        dfs(root->left);
+        dfs(root->right);
+        print(root);
+    }
+
+what is level order transversal?
+    Level order transversal of a tree is such that first all the nodes at a particular height are processed starting from root and then following levels are processed till leaf is reached.
